@@ -1,0 +1,18 @@
+{
+    "name": "joynul/php",
+    "authors": [
+        {
+            "name": "joynul",
+            "email": "joynal.abedin@sebpo.com"
+        }
+    ],
+    "require": {
+        "elasticsearch/elasticsearch": "~6.0",
+        "monolog/monolog": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Src\\" : "Src/Libraries"
+        }
+    }
+}
